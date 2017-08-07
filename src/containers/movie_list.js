@@ -78,7 +78,7 @@ class MovieList extends Component {
                 <i className="add icon"></i>
                 Details
               </div>
-              <div className="ui primary button"  onClick={this.setWatched.bind(movieData)}>
+              <div className="ui primary button">
                 <i className="play icon"></i>
                 Watched
               </div>
@@ -102,7 +102,6 @@ class MovieList extends Component {
           <div className="sixteen wide column"></div>
         </div>
         <div className="ui bottom attached button">Watched Grid</div>
-      <div className="six wide column">{setWatched}</div>
       </div>
     );
   }

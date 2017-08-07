@@ -28,7 +28,7 @@ class SearchBar extends Component{
       <form onSubmit = {this.onFormSubmit}>
         <div className="ui fluid action input search-bar">
           <input type="text" placeholder="Enter Movie Name Here " value={this.state.term} onChange={this.onInputChange}/>
-          <div className="ui button">Search</div>
+          <div className="ui button" onClick={this.onFormSubmit}>Search</div>
         </div>
       </form>
     );
